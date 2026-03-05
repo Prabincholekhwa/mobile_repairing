@@ -80,9 +80,6 @@ export default function Header() {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2 shrink-0">
-              <div className="w-9 h-9 bg-gradient-to-br from-[#1a1f3a] to-cyan-500 rounded-xl flex items-center justify-center">
-                <img src="../../../public/circle_logo.png"></img>
-              </div>
               <span className="text-xl font-bold text-[#1a1f3a]">
                 KG<span className="text-cyan-500">Traders</span>
               </span>
